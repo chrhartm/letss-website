@@ -1,0 +1,69 @@
+{
+  "hosting": {
+    "public": "deploy-assets",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+  "rewrites": [ {
+    "source": "**",
+    "destination": "/index.html"
+  }, {
+    "source": "/l/**",
+    "dynamicLinks": true
+  }],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://letss.unicornplatform.page/",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "https://letss.unicornplatform.page/privacy",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "https://letss.unicornplatform.page/terms",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/use",
+      "destination": "https://letss.unicornplatform.page/use",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/cookies",
+      "destination": "https://letss.unicornplatform.page/cookies",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/faq",
+      "destination": "https://letss.unicornplatform.page/faq",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/transparency",
+      "destination": "https://letss.unicornplatform.page/transparency",
+      "type": "302",
+      "permanent": true
+    },
+    {
+      "source": "/licenses",
+      "destination": "https://letss.unicornplatform.page/licenses",
+      "type": "302",
+      "permanent": true
+    }
+  ],
+  "cleanUrls": true,
+  "appAssociation": "AUTO"
+  }
+}
