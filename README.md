@@ -4,11 +4,11 @@ Letss was an app for building friendships through joint activities.
 
 ## Website video
 
-https://github.com/chrhartm/letss-website/screencaptures/website.mov
+[![Website Demo](https://img.youtube.com/vi/5K3Lm-aPPa0/maxresdefault.jpg)](https://youtu.be/5K3Lm-aPPa0)
 
 ## App video
 
-https://github.com/chrhartm/letss-website/screencaptures/app.MP4
+[![App Demo](https://img.youtube.com/vi/EwqrzxyScRE/maxresdefault.jpg)](https://youtube.com/shorts/EwqrzxyScRE)
 
 ## Code
 
